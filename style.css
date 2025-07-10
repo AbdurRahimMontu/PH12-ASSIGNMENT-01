@@ -142,10 +142,10 @@ h3.logo {
 /*  Review Style */
 .review-container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 135px auto;
     height: 350px;
     border: 1px solid;
-    margin-bottom: 135px;
+   
    
 }
 .review-container h3{
@@ -197,6 +197,3 @@ h3.logo {
 
 
 
-.hide{
-    display: none;
-}
