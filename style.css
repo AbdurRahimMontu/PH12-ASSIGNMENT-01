@@ -14,8 +14,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-     background-color: #f5f8ff;
+body {
+  background-color: #f5f8ff;
 }
 header {
   height: 600px;
@@ -137,63 +137,72 @@ h3.logo {
   font-weight: 400;
   color: #00000050;
 }
-
-
 /*  Review Style */
-.review-container{
-    max-width: 1200px;
-    margin: 135px auto;
-    height: 350px;
-    border: 1px solid;
-   
-   
+.review-container {
+  max-width: 1200px;
+  margin: 135px auto;
+  height: 350px;
 }
-.review-container h3{
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 50px;
-
+.review-container h3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
 }
-.review{
-    display: flex;
-    gap: 20px;
-    
+.review {
+  display: flex;
+  gap: 20px;
 }
-.single-review{
-    
-   background-color:#fafcff;
-   padding: 24px;
-   display: flex;
-   flex-direction: column;
-   gap: 24px;
-   /* border: 1px solid; */
+.single-review {
+  background-color: #fafcff;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+ 
 }
 
-.single-review h4{
-    font-size: 24px;
-    font-weight: 600;
+.single-review h4 {
+  font-size: 24px;
+  font-weight: 600;
 }
 
-.single-review h5{
-    font-size: 16px;
-    font-weight: 600;
+.single-review h5 {
+  font-size: 16px;
+  font-weight: 600;
 }
-.single-review p{
-    font-size: 16px;
-    font-weight: 400;
-    color: #1e1e1e;
+.single-review p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1e1e1e;
 }
-.single-review span{
-    font-size: 16;
-    font-weight: 400;
-    color: #b3b3b3;
+.single-review span {
+  font-size: 16;
+  font-weight: 400;
+  color: #b3b3b3;
 }
 
+/* Focus Style */
+.focus-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.focus {
+  width: 900px;
+  margin: 0 auto;
 
-
-
-
-
-
-
+  padding: 70px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.focus-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+.focus .focus-image img {
+  width: 100%;
+}
