@@ -61,3 +61,46 @@ h3.logo {
 .btn-banner {
   text-align: center;
 }
+/* Action Style */
+.action{
+    max-width: 1200px;
+  margin: 116px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+}
+.action-content{
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.action-content p{
+    font-size: 24px;
+    font-weight: 400;
+    color: #252432;
+    opacity: .50;
+   
+}
+.action-content h3{
+        font-size: 40px;
+    font-weight: 700;
+}
+.action-btn{
+    font-size: 16px;
+    font-weight: 700;
+    width: 220px;
+    border: 1px solid red;
+    display: inline-block;
+}
+.action-image{
+ width: 520px;
+
+}
+.action img{
+    width: 100%;
+}
