@@ -14,6 +14,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+     background-color: #f5f8ff;
+}
 header {
   height: 600px;
   background-image: url("assets/hero-bg.png");
@@ -133,4 +136,67 @@ h3.logo {
   font-size: 20px;
   font-weight: 400;
   color: #00000050;
+}
+
+
+/*  Review Style */
+.review-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 350px;
+    border: 1px solid;
+    margin-bottom: 135px;
+   
+}
+.review-container h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+
+}
+.review{
+    display: flex;
+    gap: 20px;
+    
+}
+.single-review{
+    
+   background-color:#fafcff;
+   padding: 24px;
+   display: flex;
+   flex-direction: column;
+   gap: 24px;
+   /* border: 1px solid; */
+}
+
+.single-review h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.single-review h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+.single-review p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+.single-review span{
+    font-size: 16;
+    font-weight: 400;
+    color: #b3b3b3;
+}
+
+
+
+
+
+
+
+
+.hide{
+    display: none;
 }
