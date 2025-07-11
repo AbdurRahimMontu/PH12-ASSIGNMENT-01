@@ -159,7 +159,6 @@ h3.logo {
   display: flex;
   flex-direction: column;
   gap: 24px;
- 
 }
 
 .single-review h4 {
@@ -181,12 +180,12 @@ h3.logo {
   font-weight: 400;
   color: #b3b3b3;
 }
-.avatar{
+.avatar {
   display: flex;
   gap: 10px;
   align-items: center;
 }
-.avatar img{
+.avatar img {
   border-radius: 50%;
 }
 
@@ -199,7 +198,6 @@ h3.logo {
 .focus {
   width: 900px;
   margin: 0 auto;
-
   padding: 70px 0;
   display: flex;
   flex-direction: column;
@@ -214,3 +212,56 @@ h3.logo {
 .focus .focus-image img {
   width: 100%;
 }
+/* Touch Section */
+.touch-container {
+  margin-bottom: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.touch {
+  height: 580px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+.touch-content {
+  font-size: 70px;
+  font-weight: bold;
+  color: #000000;
+  flex-basis: 50%;
+}
+
+form {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+textarea {
+  width: 100%;
+  border: none;
+}
+
+input,
+textarea {
+  display: block;
+}
+
