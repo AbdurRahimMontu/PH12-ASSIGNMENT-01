@@ -18,7 +18,7 @@ body {
 /* Header Style */
 header {
   height: 600px;
-  background-image: url("assets/hero-bg.png");
+  background-image: url('assets/hero-bg.png');
   position: relative;
 }
 nav {
@@ -324,4 +324,4 @@ ul li a {
   font-size: 16px;
   font-weight: 400;
   color: #8987a1;
-};
+}
