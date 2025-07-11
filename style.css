@@ -21,7 +21,7 @@ body {
 /* Header Style */
 header {
   height: 600px;
-  background-image: url('/assets/hero-bg.png');
+  background-image: url('./assets/hero-bg.png');
   position: relative;
 }
 nav {
