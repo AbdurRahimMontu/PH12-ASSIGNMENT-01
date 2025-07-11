@@ -181,6 +181,14 @@ h3.logo {
   font-weight: 400;
   color: #b3b3b3;
 }
+.avatar{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.avatar img{
+  border-radius: 50%;
+}
 
 /* Focus Style */
 .focus-container {
