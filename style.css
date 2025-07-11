@@ -8,6 +8,7 @@
   font-family: "Raleway", sans-serif;
 }
 
+
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +21,7 @@ body {
 /* Header Style */
 header {
   height: 600px;
-  background-image: url("./assets/hero-bg.png");
+  background-image: url("/assets/hero-bg.png");
   position: relative;
 }
 nav {
@@ -45,13 +46,14 @@ h3.logo {
   border: none;
   border-radius: 6px;
 }
-.btn:hover {
-  background-color: rgb(195, 195, 41);
+.btn:hover{
+  background-color: rgb(195, 195, 41) ;
   color: black;
   cursor: pointer;
   transform: scale(110%);
   transition-duration: 1s;
   transition-timing-function: ease-in;
+
 }
 /* Banner Style */
 .banner {
@@ -275,14 +277,14 @@ textarea {
 }
 
 /* Footer Style */
-footer {
+footer{
   background-color: #ffffff;
   max-width: 1200px;
   height: 420px;
   margin: 0 auto;
   position: relative;
 }
-.footer-container {
+.footer-container{
   height: 220px;
   width: 530px;
 
@@ -294,36 +296,40 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  
 }
-ul {
+ul{
   display: flex;
   gap: 20px;
   justify-content: center;
 }
-ul li {
+ul li{
   list-style: none;
+  
 }
-ul li a {
+ul li a{
   text-decoration: none;
-  font-size: 16px;
+    font-size: 16px;
   font-weight: 400;
   color: #8987a1;
+ 
 }
-.footer-container h2 {
+.footer-container h2{
   font-size: 100px;
   font-weight: 900;
   color: #4e47ff;
   padding-bottom: 8px;
 }
 
-.footer-links {
+.footer-links{
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.footer-links p {
+.footer-links p{
   font-size: 16px;
   font-weight: 400;
   color: #8987a1;
 }
+
