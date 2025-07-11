@@ -36,13 +36,22 @@ h3.logo {
   font-size: 30px;
 }
 .btn {
-  padding: 12px 35px;
+  padding: 15px 35px;
   background-color: #4e47ff;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   border: none;
   border-radius: 6px;
+}
+.btn:hover{
+  background-color: rgb(195, 195, 41) ;
+  color: black;
+  cursor: pointer;
+  transform: scale(110%);
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+
 }
 /* Banner Style */
 .banner {
@@ -252,7 +261,7 @@ input[type="email"] {
 }
 input[type="submit"] {
   width: 100%;
-  padding: 12px 20px;
+
   border-radius: 4px;
 }
 textarea {
@@ -305,7 +314,7 @@ ul li a{
 }
 .footer-container h2{
   font-size: 100px;
-  font-weight: bolder;
+  font-weight: 900;
   color: #4e47ff;
   padding-bottom: 8px;
 }
